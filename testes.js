@@ -58,9 +58,3 @@ const multiplicacao = function (a, b){
 };
 
 console.log(multiplicacao(num1,num2));
-
-
-
-
-//lógica de programação
-
