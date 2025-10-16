@@ -60,9 +60,7 @@ const multiplicacao = function (a, b){
 console.log(multiplicacao(num1,num2));
 
 
-// Arrow function 
 
 
-const IMC = (peso, altura) => {
-    const imc = peso /(altura ** 2)
-        
+//lógica de programação
+
