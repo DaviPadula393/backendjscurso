@@ -7,7 +7,7 @@ if(resposta) {
 };
 let resultado = prompt("Diga um número","");
 let resultado2 = prompt("Diga mais um","");
-let resultado3 = (resultado + resultado2/2);
-let conclusao = "Sua resposta é" + resultado3
-console.log(conclusao = resultado3 + resposta);
-alert(conclusao);
+let resultado3 = ((resultado/2 + resultado2/2));
+let conclusao = 'Seu resultado é' + resultado3;
+console.log(resultado3, resposta);
+alert(resultado3);
