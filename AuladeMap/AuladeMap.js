@@ -1,6 +1,6 @@
 //Exemplo 1 — Dobrar os valores de um array
 
-/*const numeros = [1,2,3,4];
+const numeros = [1,2,3,4];
 
 const dobrados = numeros.map(num => num * 2);
 
@@ -37,10 +37,10 @@ const reprovados = alunos.filter(function(aluno){
 });
 
 console.log('vocês foram', aprovados, 'APROVADOS!!');
-console.log('infelizmente você foi', reprovados, 'reprovados :(');*/
+console.log('infelizmente você foi', reprovados, 'reprovados :(');
 
 
-const numeros = [1,2,3,4,5];
+/*const numeros = [1,2,3,4,5];
 
 const soma = numeros.reduce((acum, valor) => acum + valor);
 
@@ -54,5 +54,5 @@ const contagem = frutas.reduce((acum, fruta) => {
     return acum;
 }, {});
 
-console.log(contagem);
+console.log(contagem);*/
 
