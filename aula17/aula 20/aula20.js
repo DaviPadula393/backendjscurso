@@ -13,7 +13,12 @@ const mensagem = saudacao("Davi");
 
 mensagem();
 
-function contador() {
+
+
+
+
+
+/*function contador() {
 
   let count = 0;
   console.log('Valor atual do count', 0);
@@ -33,13 +38,13 @@ function contador() {
 const incrementar = contador();
 
 
-incrementar(); // 👉 1
+incrementar(); 
 
-incrementar(); // 👉 2
+incrementar(); 
 
-incrementar(); // 👉 3
+incrementar(); */
 
-function banco() {
+/*function banco() {
 
   let saldo = 100;
 
@@ -57,7 +62,27 @@ const conta = banco();
 
 conta.depositar(50);
 
-conta.consultar(); // 👉 "Saldo: R$150"
+conta.consultar(); // 👉 "Saldo: R$150"*/
+
+
+
+// ATIVIDADES DA AULA 20
+
+
+function criarCotador(n) {
+    let valor = 0;
+    return function() {
+        valor += n;
+        console.log(valor);
+    };
+}
+let ac1 = criarCotador(2);
+let ac2 = criarCotador(5);
+ac1();
+ac1();
+ac1();
+ac2();
+ac2();
 
 
 
