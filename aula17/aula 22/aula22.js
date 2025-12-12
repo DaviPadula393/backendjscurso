@@ -43,3 +43,4 @@ console.log(camiseta.verProduto());
 for(item in smartphone){
     console.log(item, smartphone[item]);
 }*/
+ 
