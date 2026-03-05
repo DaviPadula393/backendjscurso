@@ -66,15 +66,14 @@ O preço deve ser numérico e maior que 0.
 
 Esses getters e setters devem manipular os campos privados #nome e #preco.*/
 
-const produto1 = new Produto('xbox', 2500, 'hollow knight', 10);
+const produto1 = new Produto('Notebook', 2500, 'Eletrônicos', 10);
 
-console.log(produto1.getEstoque());
+console.log(produto1.getNome()); // Notebook
+console.log(produto1.getPreco()); // 2500
+console.log(produto1.categoria); // Eletrônicos
+console.log(produto1.getEstoque()); // 10   
 produto1.setEstoque(15);
-console.log(produto1.getEstoque());
+console.log(produto1.getEstoque()); // 15
 
-produto1.setEstoque(-5);
-console.log(produto1.getEstoque());
-
-
-console.log(produto1.getNome());
-console.log(produto1.getPreco());
+produto1.setEstoque(-5); // Valor inválido para estoque. Deve ser um número não negativo.
+console.log(produto1.getEstoque()); // 15 (estoque permanece inalterado)
